@@ -1,0 +1,43 @@
+Version 3.1
+1. Fixed the number of posts shown on the sidebar "about" section.
+This change was done in functions.php.
+2. Added new function in functions.php, to show most recent posts on pages other than home page.
+Sidebar.php modified to make a call to this function.
+3. When viewing the archives, only post's excerpts are shown. 
+we added a link below the excerpt to be able to get to that post easily.
+4. wp_list_categories is used in sidebar.php if it exists.
+
+
+Version 3.0
+overall improvement to the look and feel.
+1. updated footer.php to have wp_footer(), after the closing </div>
+2. Added attachment.php so you can use the wordpress 2.0 feature that allows people
+to comment on an attachment in a post.
+3. comments.php - Now supports Trackback URI and Comments Feed when viewing single post / page.
+4. functions.php - 
+	About Section on the sidebar is made into a widget
+	Support for Custom Image Header - An Amazing way you can create your own header with just a few mouse clicks.
+	WordPress 2.1 puts both link categories and post categories into one table.
+when picking a category for Asides, MistLook is made to list only post categories.
+
+5. sidebar.php - following number 4, about section is made to call to the widget's function.
+				- changed the title for category list to be "Categories". Previously it was called "Tags".
+6. 404.php - made to use the 404.gif that is added to the img folder.
+7. contact.php - added cols and rows to the textarea tag.
+
+
+Version 2.3
+
+1. contact.php updated to have an AntiSpam Question
+2. index.php - added support for posts that span across pages. <?php wp_link_pages(); ?>
+3. single.php - added support for posts that span across pages. <?php wp_link_pages(); ?>
+4. page.php - added support for posts that span across pages. <?php wp_link_pages(); ?>
+			- now displays the list of sub-pages(if any), right under the page's content.
+5. style.css - Updated
+	- Sidebar's heading color changed.
+	- Textbox and the TextArea were assigned a background color.
+	- added a background image for images within the post, 
+		that are float to left or right using class="left" or class="right".
+	- Updated the style for blockquote with a background image.
+6. header.php
+	Added the meta tags for keywords and description

@@ -1,0 +1,84 @@
+.CR_stars {
+	height: 15px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+* html .CR_stars .star {
+	display: block;
+	position: absolute;
+	height: 0;
+	width: 0;
+}
+.CR_stars input {
+	display: none;
+}
+.CR_no_star, .CR_half_star, .CR_full_star, .CR_no_voting_star, .CR_half_voting_star, .CR_full_voting_star {
+	display: block;
+	float: left;
+	width: 17px;
+	height: 15px;
+	text-indent: -1000em;
+	text-align: left;
+	background-repeat: no-repeat;
+}
+.CR_no_star {
+	background-image: url(../images/stars/rating_off.gif);
+}
+.CR_full_star {
+	background-image: url(../images/stars/rating_over.gif);
+}
+.CR_half_star {
+	background-image: url(../images/stars/rating_half_over.gif);
+}
+.CR_no_voting_star {
+	background-image: url(../images/stars/rating_off.gif);
+}
+.CR_full_voting_star {
+	background-image: url(../images/stars/rating_on.gif);
+}
+.CR_half_voting_star {
+	background-image: url(../images/stars/rating_half.gif);
+}
+.CR_votes {
+	padding-left: .5em;
+}
+.CR_moment_scores li {
+	position: relative;
+	height: 2.2ex;
+	list-style: none;
+}
+* html .CR_moment_scores li, * html .CR_month_scores li {
+	list-style: none;
+}
+.CR_month_scores, .CR_moment_scores { list-style: none; }
+.CR_moment_scores .trend_up, .CR_moment_scores .trend_dw, .CR_moment_scores .trend_eq {
+	display:block;
+	width: 14px;
+	height: 15px;
+	overflow: hidden;
+	text-indent: -100em;
+	float: left;
+	background-repeat: no-repeat;
+	margin-right: .5em;
+}
+.CR_moment_scores .trend_up {
+	background-image: url(../images/stars/up_arrow.gif);
+}
+.CR_moment_scores .trend_dw {
+	background-image: url(../images/stars/dw_arrow.gif);
+}
+.CR_moment_scores .trend_eq {
+	background-image: url(../images/stars/eq_arrow.gif);
+}
+.CR_container {
+	width: 300px;
+	margin: 1.5em auto;
+}
+.CR_moment_scores .CR_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 21ex;
+	text-align: right;
+}

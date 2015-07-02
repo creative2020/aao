@@ -1,0 +1,5 @@
+[13-Apr-2014 05:03:08 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/two020cr/public_html/aboveaverageodds.com/wp-content/themes/MistyLook/index.php on line 1
+[04-Oct-2014 08:07:02 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/two020cr/public_html/aboveaverageodds.com/wp-content/themes/MistyLook/404.php on line 1
+[04-Oct-2014 08:07:02 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/two020cr/public_html/aboveaverageodds.com/wp-content/themes/MistyLook/404.php on line 1
+[04-Oct-2014 08:07:03 America/Chicago] PHP Fatal error:  Call to undefined function bloginfo() in /home/two020cr/public_html/aboveaverageodds.com/wp-content/themes/MistyLook/footer.php on line 2
+[04-Oct-2014 08:07:03 America/Chicago] PHP Fatal error:  Call to a member function get_var() on a non-object in /home/two020cr/public_html/aboveaverageodds.com/wp-content/themes/MistyLook/functions.php on line 6
